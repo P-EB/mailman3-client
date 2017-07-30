@@ -1,0 +1,5 @@
+mailman3-client (3.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #799283)
+
+ -- Pierre-Elliott Bécue <becue@crans.org>  Sun, 30 Jul 2017 20:55:00 +0200

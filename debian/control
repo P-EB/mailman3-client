@@ -1,0 +1,25 @@
+Source: mailman3-client
+Section: mail
+Priority: optional
+Maintainer: Pierre-Elliott Bécue <becue@crans.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-dev (>= 2.6),
+               python-sphinx,
+               python-httplib2,
+               python-six,
+               python-setuptools
+Standards-Version: 4.0.0
+Homepage: http://www.list.org/
+Testsuite: autopkgtest-pkg-python
+X-Python-Version: >= 2.6
+Vcs-Browser: https://github.com/P-EB/mailman3-client
+Vcs-Git: https://github.com/P-EB/mailman3-client.git -b master
+
+Package: mailman3-client
+Architecture: any
+Depends: mailman3-core, ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: Python bindings for Mailman3 REST API
+ This package provides the REST API to interact with Mailman3 server,
+ distributed under the terms of the GNU Lesser General Public License
+ (LGPL) version 3 or later.
