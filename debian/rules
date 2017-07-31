@@ -21,6 +21,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 %:
 	dh $@ --with python2,sphinxdoc --buildsystem=pybuild
 
+# Tests disabled as they require a running mailman3-core server
 override_dh_auto_test:
 
 
