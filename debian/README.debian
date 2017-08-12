@@ -3,6 +3,6 @@ mailman3-client for Debian
 
  TODO:
   * A bug in the code prevents compilation for python3 for now, it should be
-    fixed in 1.1.1
+    fixed in 3.1.1
 
  -- Pierre-Elliott Bécue <becue@crans.org>  Mon, 31 Jul 2017 15:28:00 +0200
